@@ -9,7 +9,7 @@
   /* border-style: solid; */
   display: flex;
   flex-direction: column;
-  padding: 0 1vw;
+  padding: 0 0.5vw;
   height: 512px;
 }
 
@@ -33,7 +33,7 @@
 
 .labelButtons {
   display: flex;
-  margin-left: 1vw;
+  margin-left: 0.5vw;
 }
 
 .labelButtons > button {
@@ -67,7 +67,7 @@
   border-radius: 0.5vh;
   border-width: 1px;
   padding: 2vh 2vw;
-  margin: 0 2vw;
+  margin: 0 1vw;
 }
 
 .arrowsContainer button:hover {
