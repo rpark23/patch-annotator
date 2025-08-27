@@ -89,7 +89,7 @@ export default function Viewer() {
     }
     nextPatch()
     const split = currFile.split("_");
-    const rowData = [currSlide, split[1], split[2].split(".")[0], lepidic, acinar, papillary, micropapillary, cribriform, solid, mucinous, stas];
+    const rowData = [currFile, currSlide, split[1], split[2].split(".")[0], lepidic, acinar, papillary, micropapillary, cribriform, solid, mucinous, stas];
     try {
       const res = await fetch("/api/sheet", {
         method: "POST",
