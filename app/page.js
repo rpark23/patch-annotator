@@ -6,7 +6,7 @@ import Viewer from "./components/viewer";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h2>TCGA Patch Viewer</h2>
+      <h2>TCGA Lung Adenocarcinoma</h2>
       <Viewer />
     </div>
   );
